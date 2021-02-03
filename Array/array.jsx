@@ -31,7 +31,7 @@ var majorityElement = function(nums) {
         // let the same element accumulate counts
         let count = 0;
         let candidate = 0;
-        for (num of nums){
+        for (let num of nums){
             // if count is zero, to begin with and when elements cancel out
             // asign the new number as caniddate
             if (count === 0){
