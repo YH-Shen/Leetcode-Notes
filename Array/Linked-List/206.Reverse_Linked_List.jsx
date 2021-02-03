@@ -1,4 +1,7 @@
 // Reference: https://www.geeksforgeeks.org/reverse-a-linked-list/
+
+
+// ======================= Iterative Solution: Time: O(n), Space: O(1)
 // Loop until curr points at NULL
 // 1. 3 pointers: current(which is head), next, prev. 
 //      *prev maintains already reversed linked list
