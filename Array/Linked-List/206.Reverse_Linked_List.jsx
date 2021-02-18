@@ -31,3 +31,28 @@ var reverseList = function(current) {
     }
     return prev;
 };
+
+// ======================= Recursive Solution: 
+
+
+// 21 merge list
+var mergeTwoLists = function(l1, l2) {
+    // initiate output array as [];
+    // while any lists is not empty:
+    // compare the first elements of l1 and l2:
+    //      if l1 empty:
+    //          push the rest of the l2
+    //          return output array
+    //      if l2 empty:
+    //          push the rest of the l1
+    //          return output array
+
+    //      if l1's first < l2's first:
+    //          pushBack l1's first element into the out arr     
+    //          remove l1's first(Remove First)
+    //      else:
+    //          pushBack l2's first element into the out arr     
+    //          remove l2's first(Remove First)
+            
+};
+
