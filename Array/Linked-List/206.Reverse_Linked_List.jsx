@@ -37,22 +37,36 @@ var reverseList = function(current) {
 
 // 21 merge list
 var mergeTwoLists = function(l1, l2) {
-    // initiate output array as [];
-    // while any lists is not empty:
+    // initiate output array as [], counter as 0;
+    let output = [];
+    
+    let counterOne = 0; // counter for list one
+    let counterTwo = 0; // counter for list two
+    // while both lists non empty and sum counter of counter have not reach the end of both lists:
+    while ( (l1 || l2) && counterOne + counterTwo < l1.length + l2.length - 2 ){
     // compare the first elements of l1 and l2:
+    
+    // try to refactor this: 
     //      if l1 empty:
     //          push the rest of the l2
     //          return output array
     //      if l2 empty:
     //          push the rest of the l1
     //          return output array
-
+    // Refactored:
+    //      if eitehr list is empty, push all the rest of the otehr list into the output array
+            if (! l1 && l2){
+                // maybe use arr.apply to push
+            }
     //      if l1's first < l2's first:
     //          pushBack l1's first element into the out arr     
     //          remove l1's first(Remove First)
     //      else:
     //          pushBack l2's first element into the out arr     
     //          remove l2's first(Remove First)
-            
+           }
+    
+    // return output arr
+    return output;
 };
 
