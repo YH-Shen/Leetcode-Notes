@@ -56,7 +56,7 @@ var mergeTwoLists = function(l1, l2) {
     // Refactored:
     //      if eitehr list is empty, push all the rest of the otehr list into the output array
             if (! l1 && l2){
-                // maybe use arr.apply to push
+                // maybe use arr.apply to push the rest of one array into the output
             }
     //      if l1's first < l2's first:
     //          pushBack l1's first element into the out arr     
